@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIPEATOR - Tool Description</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000; /* Fond noir */
+            color: transparent; /* Texte transparent pour afficher l'effet de dégradé de couleur */
+            -webkit-background-clip: text; /* Utilisé pour appliquer le dégradé de fond au texte */
+            animation: colorChange 10s linear infinite alternate; /* Animation pour changer de couleur de texte */
+            text-align: center; /* Centrer le texte */
+        }
+
+        header, section, footer {
+            padding: 50px 20px;
+            text-align: center; /* Centrer le texte */
+        }
+
+        h1, h2, p {
+            text-align: center; /* Centrer le texte */
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        #how-to-use ol {
+            list-style-type: decimal;
+        }
+
+        /* Animation pour changer de couleur de texte de gauche à droite */
+        @keyframes colorChange {
+            0% {
+                color: #ff00ff; /* Début du dégradé de couleur (rose néon) */
+            }
+            100% {
+                color: #00ff00; /* Fin du dégradé de couleur (vert néon) */
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #111111;
+        }
+
+        footer p {
+            font-size: 14px;
+            color: #cccccc;
+        }
+
+        /* Style de la barre de navigation */
+        nav {
+            text-align: center;
+            background-color: #111111;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: #ff00ff; /* Couleur rose néon au survol */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#download">Download</a>
+    </nav>
+
+    <header id="home">
+        <h1>Welcome to CIPEATOR v1.7.0</h1>
+        <p>CIPEATOR is made by Marsupilami and XainowAI Agency</p>
+    </header>
+
+    <section id="about">
+        <h2>About CIPEATOR</h2>
+        <p>CIPEATOR is a powerful tool that automates the installation process of various pentesting tools. </p>
+        <p>It simplifies the setup process and saves time for pentesters.</p>
+    </section>
+
+    <section id="download">
+        <h2>Download CIPEATOR</h2>
+        <p>Follow these steps to download and install CIPEATOR:</p>
+        <ol>
+            <li>Go to https://github.com/vortexfr1/</li>
+            <li>Click on the "Download" button.</li>
+            <li>Execute launch.sh</li>
+            <li>Enjoy!</li>
+        </ol>
+    </section>
+
+    <footer>
+        <p>Made with ❤️ Marsupilami | XainowAI Agency - Cyber Security</p>
+    </footer>
+</body>
+</html>
